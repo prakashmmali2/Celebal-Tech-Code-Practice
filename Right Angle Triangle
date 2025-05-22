@@ -5,3 +5,11 @@ def print_right_angle_triangle(n):
 # Change the value of n for the size of the triangle
 n = int(input("Enter the N value : "))
 print_right_angle_triangle(9)
+
+
+Output:
+Enter the N value : 4
+*
+**
+***
+****
