@@ -1,0 +1,17 @@
+def print_inverted_right_angle_triangle(n):
+    for i in range(n, 0, -1):
+        print('* ' * i)
+
+# Change the value of n for the size of the triangle
+n = int(input("Enter the Vale of N : "))
+print_inverted_right_angle_triangle(n)
+
+output:
+Enter the Vale of N : 5
+* * * * *
+* * * *
+* * *
+* *
+*
+
+
